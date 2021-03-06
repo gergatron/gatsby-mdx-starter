@@ -1,6 +1,7 @@
 ---
 title: Hello World
 date: 2018-12-29
+category: 'javascript'
 ---
 
 This is my first blog post. Hello World!

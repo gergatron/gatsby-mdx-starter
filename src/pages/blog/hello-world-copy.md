@@ -1,6 +1,7 @@
 ---
 title: Hello World Copy
 date: 2018-12-30
+category: 'kitten'
 ---
 
 This is my second blog post. Hello World!
