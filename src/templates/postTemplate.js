@@ -9,7 +9,7 @@ const PostTemplate = ({ data }) => {
     <section>
       <div>
         <h1>{frontmatter.title}</h1>
-        <span>{frontmatter.date}</span>
+        <h3>{frontmatter.date}</h3>
       </div>
       <MDXRenderer>{body}</MDXRenderer>
     </section>
