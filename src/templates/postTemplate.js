@@ -19,12 +19,11 @@ const PostTemplate = ({ data }) => {
 export default PostTemplate
 
 export const pageQuery = graphql`
-  query($path: String!) {
-    mdx(frontmatter: { path: { eq: $path } }) {
+  query($slug: String!) {
+    mdx(fields: { slug: { eq: $slug } }) {
       body
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
-        path
         title
       }
     }

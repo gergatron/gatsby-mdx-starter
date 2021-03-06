@@ -1,9 +1,9 @@
 ---
-title: Hello World
-date: 2018-12-29
+title: Hello World Copy
+date: 2018-12-30
 ---
 
-This is my first blog post. Hello World!
+This is my second blog post. Hello World!
 
 # What is Lorem Ipsum?
 
