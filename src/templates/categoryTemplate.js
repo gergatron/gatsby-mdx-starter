@@ -1,14 +1,14 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-const Category = ({ data }) => {
-  
+const Category = ({ data, pageContext }) => {
+  const { category } = pageContext
   const { edges } = data.allMdx;
   
   return (
     
       <div>
-        <h1>Category</h1>
+        <h1>{category}</h1>
         <ul>
           {edges.map(({ node }) => {
             const { title, date } = node.frontmatter;
